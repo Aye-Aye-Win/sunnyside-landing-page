@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+$font-family-sans-serif: 'Barlow','Fraunces',sans-serif;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+.hero{
+    background: url("../img/image-header.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+.btn-white{
+    padding: 4px 16px;
+    background-color: white;
+    border-radius: 20px;
+}
+.text-white{
+    font-size: 90px;
+    font-weight: 600;
+}
+.yellow{
+    text-decoration-thickness: 8px;
+    text-decoration-color: hsl(51, 100%, 49%);
+}
+.red{
+    text-decoration-thickness: 8px;
+    text-decoration-color: hsl(7, 99%, 70%);
+}
+.graphic-design{
+    height: 100vh;
+    background: url("../img/image-graphic-design.jpg") no-repeat center;
+    background-size: cover;
+    color: hsl(167, 40%, 24%);
+}
+.photography{
+    height: 100vh;
+    background: url("../img/image-photography.jpg") no-repeat center;
+    background-size: cover;
+    color: hsl(198, 62%, 26%);
+}
+.pic{
+    width: 80px;
+    border-radius: 50%;
+}
+.footer{
+    height: 100vh;   
+}
+.milkbottles{
+    width: 25vw;
+}
+.orange{
+    width: 25vw;
+}
+.cone{
+    width: 25vw;
+}
+.sugarcubes{
+    width: 25vw;
+}
+.bg{
+    background-color: hsl(168, 34%, 41%);
+}
+.a-link{
+    color: rgb(3, 104, 72);
+}
+@media (max-width:768px){
+    .hero{
+        height: 66vh;
+        background: url("../img/mobile-header.jpg") no-repeat center;
+        background-size: cover;
+    }
+    .text-white {
+        font-size: 40px;
+        font-weight: 100;
+    }
+    .graphic-design{
+        height: 50vh;
+    }
+    .photography{
+        height: 50vh;
+    }
+    .footer {
+        height: 50vh;
+    }
+    .milkbottles{
+        width: 50vw;
+        background: url("../img/mobile-gallery-milkbottles.jpg") no-repeat center;
+        background-size: cover;
+    }
+    .orange{
+        width: 50vw;
+        background: url("../img/mobile-gallery-orange.jpg") no-repeat center;
+        background-size: cover;
+    }
+    .cone{
+        width: 50vw;
+        background: url("../img/mobile-gallery-cone.jpg") no-repeat center;
+        background-size: cover;
+    }
+    .sugarcubes{
+        width: 50vw;
+        background: url("../img/mobile-gallery-sugar-cubes.jpg") no-repeat center;
+        background-size: cover;
+    }
+}
